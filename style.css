@@ -134,3 +134,35 @@ footer a:hover {
 footer span {
     padding: 0 5px;
 }
+
+@media screen and (max-width: 760px) {
+    #left {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 510px) {
+    #left {
+        display: none;
+    }
+
+    #right {
+        height: 100vh;
+    }
+
+    #right .btn-primary {
+        margin: 0 5px;
+    }
+
+    #right h4 {
+        display: none;
+    }
+
+    #right .policy {
+        display: none;
+    }
+
+    #right .logo img {
+        display: none;
+    }
+}
